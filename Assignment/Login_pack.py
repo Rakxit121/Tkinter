@@ -22,7 +22,7 @@ Label(root, text="").pack()
 forgot = Button(root, text=" Forgot your password?", fg="blue", height=1, width=35)
 forgot.pack()
 Label(root, text="").pack()
-Button(root, text="Log In", fg="White", bg="Blue",height=2, width=15,font=12).pack()
+Button(root, text="Log In", fg="White", bg="Blue", height=2, width=15, font=12).pack()
 Label(root, text="").pack()
 Button(root, text="Sign up", fg="blue").pack()
 

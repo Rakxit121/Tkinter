@@ -58,6 +58,4 @@ Button(root, text="Add", height=3, width=13).place(x=10, y=220)
 Button(root, text="Print", command=print, height=3, width=13).place(x=850, y=120)
 cols = ('item', 'price', 'qty', 'total')
 
-
-
 root.mainloop()
