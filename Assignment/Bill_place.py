@@ -4,6 +4,7 @@ root = Tk()
 root.title("Bill Print using place in tkinter")
 root.geometry("1000x600")
 
+Label(root, text=" Bill ", font="18").place(x=450, y=10)
 var1 = IntVar()
 Checkbutton(root, text="Room Charge", variable=var1).place(x=10, y=50)
 
@@ -18,7 +19,7 @@ Checkbutton(root, text="Extra", variable=var4).place(x=10, y=140)
 
 var5 = IntVar()
 Checkbutton(root, text="Tax", variable=var5).place(x=10, y=170)
-Label(root, text="Total").place(x=600, y=10)
+Label(root, text="Total").place(x=600, y=50)
 
 e1 = Entry(root)
 e1.place(x=140, y=50)
